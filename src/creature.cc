@@ -14,5 +14,4 @@ namespace edu { namespace vcccd { namespace vc { namespace csv13 {
         std::uniform_int_distribution<int> damageDistribution(1, strength);
         return damageDistribution(generator);
     }
-
 }}}}
